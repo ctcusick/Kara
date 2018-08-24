@@ -105,7 +105,7 @@ public class MessageReceivedEventListener implements IListener<MessageReceivedEv
 
 	private void commandHelp(IChannel channel) {
 		owner.sendMessage(channel,
-				"I am an AX400 android. I can look after your house, do the cooking, mind the kids... I organize your appointments. I speak 300 languages, and I am entirely at your disposal as a sexual partner. No need to feed me or recharge me. I am equipped with a quantic battery that makes me autonomous for 173 years.\nI'm here to help you to Telnet servers.");
+				"I am an AX400 android. I can look after your house, do the cooking, mind the kids... I organize your appointments. I speak 300 languages, and I am entirely at your disposal as a sexual partner. No need to feed me or recharge me. I am equipped with a quantic battery that makes me autonomous for 173 years.\nI'm here to help you connect to Telnet servers.");
 		owner.sendMessage(channel, "/connect\nConnect to the default Telnet server\n\n/send [text]\nSend the specified text to the server\n\n/sendCtrl [caret notation character]\nSend the specified ctrl character to the server\n\n/sendDel\nSend the delete character to the server\n\n/disconnect\nDisconnect from the server\n\n/help\nDisplay this message.");
 	}
 
