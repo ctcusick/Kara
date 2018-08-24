@@ -34,5 +34,4 @@ Send the delete character to the server
 Disconnect from the server
 
 **/help**  
-
 Display this message.
