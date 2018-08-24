@@ -19,23 +19,18 @@ kara_config.xml should have one element named authKey enclosing your API token.
 ### Commands
 
 **/connect**  
-
 Connect to the default Telnet server
 
 **/send [text]**  
-
 Send the specified text to the server
 
 **/sendCtrl [caret notation character]**  
-
 Send the specified ctrl character to the server
 
 **/sendDel**  
-
 Send the delete character to the server
 
 **/disconnect**  
-
 Disconnect from the server
 
 **/help**  
