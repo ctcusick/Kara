@@ -110,7 +110,6 @@ public class Kara {
 			configParser = null;
 			System.exit(2);
 		}
-		
 		kara.discordBot = DiscordBot.getInstance(kara, configParser.getConfigValue("authKey"));
 	}
 

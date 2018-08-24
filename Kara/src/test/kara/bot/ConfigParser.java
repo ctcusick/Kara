@@ -41,7 +41,6 @@ public class ConfigParser {
 	}
 	
 	public String getConfigValue(String key) {
-		configValues.get(key);
-		return key;		
+		return configValues.get(key);		
 	}
 }
