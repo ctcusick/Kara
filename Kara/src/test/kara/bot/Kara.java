@@ -18,9 +18,9 @@ public class Kara {
 	private Terminal terminal = null;
 	private IChannel terminalDiscordChannel = null;
 	private DiscordBot discordBot = null;
+	private String authKey;
 
 	private Kara() {
-		this.discordBot = DiscordBot.getInstance(this, "");
 	}
 
 	public void die() {
@@ -101,7 +101,17 @@ public class Kara {
 	}
 
 	public static void main(String[] args) {
-		new Kara();
+		Kara kara = new Kara();
+		ConfigParser configParser;
+		try {
+			configParser = new ConfigParser("kara_config.xml");
+		} catch (ConfigParserException e) {
+			e.printStackTrace();
+			configParser = null;
+			System.exit(2);
+		}
+		
+		kara.discordBot = DiscordBot.getInstance(kara, configParser.getConfigValue("authKey"));
 	}
 
 }
