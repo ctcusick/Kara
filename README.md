@@ -35,3 +35,9 @@ Disconnect from the server
 
 **/help**  
 Display this message.
+
+### To Do
+
+* Remove spaghetti
+* Figure out how to manage object lifecycles
+* Implement some semblance of architecture
