@@ -1,12 +1,12 @@
 # Kara
 
-## Discontinued
-
-Please do not look at or use this. It is broken.
-
 Kara is a Discord-to-Telnet bridge bot implemented using the [Apache Commons Net](https://commons.apache.org/proper/commons-net/) library and [Discord4J](https://github.com/Discord4J/Discord4J).
 
 Users may find it to be a work-in-progress. They would be correct.
+
+## Discontinued
+
+Please do not look at or use this. It is broken.
 
 ## Usage
 
